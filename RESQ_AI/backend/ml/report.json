@@ -1,0 +1,242 @@
+{
+  "model_version": "gbdt-v1",
+  "checksum": "5c436e05d54e",
+  "data": {
+    "episodes": {
+      "train": 187,
+      "validation": 62,
+      "test": 63
+    },
+    "rows": {
+      "train": 9350,
+      "validation": 3100,
+      "test": 3150
+    },
+    "positive_rate_test": 0.207,
+    "split": "by episode (no leakage between minutes of one episode)"
+  },
+  "threshold_chosen_on_validation": 0.33,
+  "threshold_rule": "max F2 on validation rows not yet High Risk",
+  "test": {
+    "at_threshold": {
+      "tp": 552,
+      "fp_false_alarms": 14,
+      "fn_missed": 101,
+      "tn": 2483,
+      "precision": 0.975,
+      "recall": 0.845,
+      "f1": 0.906,
+      "false_alarm_rate": 0.006,
+      "miss_rate": 0.155
+    },
+    "at_0.5": {
+      "tp": 546,
+      "fp_false_alarms": 7,
+      "fn_missed": 107,
+      "tn": 2490,
+      "precision": 0.987,
+      "recall": 0.836,
+      "f1": 0.905,
+      "false_alarm_rate": 0.003,
+      "miss_rate": 0.164
+    },
+    "auc": 0.935,
+    "brier": 0.0338,
+    "brier_always_base_rate": 0.1655,
+    "calibration_bins": [
+      {
+        "bin": "0.0-0.1",
+        "n": 2286,
+        "mean_predicted": 0.046,
+        "observed_rate": 0.034
+      },
+      {
+        "bin": "0.1-0.2",
+        "n": 281,
+        "mean_predicted": 0.134,
+        "observed_rate": 0.078
+      },
+      {
+        "bin": "0.2-0.3",
+        "n": 15,
+        "mean_predicted": 0.232,
+        "observed_rate": 0.133
+      },
+      {
+        "bin": "0.3-0.4",
+        "n": 9,
+        "mean_predicted": 0.354,
+        "observed_rate": 0.444
+      },
+      {
+        "bin": "0.4-0.5",
+        "n": 6,
+        "mean_predicted": 0.461,
+        "observed_rate": 0.333
+      },
+      {
+        "bin": "0.5-0.6",
+        "n": 5,
+        "mean_predicted": 0.566,
+        "observed_rate": 0.4
+      },
+      {
+        "bin": "0.6-0.7",
+        "n": 6,
+        "mean_predicted": 0.654,
+        "observed_rate": 0.667
+      },
+      {
+        "bin": "0.7-0.8",
+        "n": 3,
+        "mean_predicted": 0.777,
+        "observed_rate": 0.667
+      },
+      {
+        "bin": "0.8-0.9",
+        "n": 6,
+        "mean_predicted": 0.871,
+        "observed_rate": 0.833
+      },
+      {
+        "bin": "0.9-1.0",
+        "n": 533,
+        "mean_predicted": 0.999,
+        "observed_rate": 1.0
+      }
+    ],
+    "expected_calibration_error": 0.015
+  },
+  "early_warning_test": {
+    "note": "only rows where the room is NOT yet High Risk (current score <= 60): the real forecasting question",
+    "rows": 2767,
+    "positives": 270,
+    "at_threshold": {
+      "tp": 169,
+      "fp_false_alarms": 14,
+      "fn_missed": 101,
+      "tn": 2483,
+      "precision": 0.923,
+      "recall": 0.626,
+      "f1": 0.746,
+      "false_alarm_rate": 0.006,
+      "miss_rate": 0.374
+    },
+    "at_0.5": {
+      "tp": 163,
+      "fp_false_alarms": 7,
+      "fn_missed": 107,
+      "tn": 2490,
+      "precision": 0.959,
+      "recall": 0.604,
+      "f1": 0.741,
+      "false_alarm_rate": 0.003,
+      "miss_rate": 0.396
+    },
+    "rule_engine_alone": "recall 0 by construction (it only reports the current state)"
+  },
+  "baselines_test": {
+    "persistence_score_gt_60": {
+      "tp": 383,
+      "fp_false_alarms": 0,
+      "fn_missed": 270,
+      "tn": 2497,
+      "precision": 1.0,
+      "recall": 0.587,
+      "f1": 0.739,
+      "false_alarm_rate": 0.0,
+      "miss_rate": 0.413
+    },
+    "persistence_score_gt_30": {
+      "tp": 408,
+      "fp_false_alarms": 0,
+      "fn_missed": 245,
+      "tn": 2497,
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1": 0.769,
+      "false_alarm_rate": 0.0,
+      "miss_rate": 0.375
+    }
+  },
+  "per_scenario_test": {
+    "electrical_smolder": {
+      "rows": 650,
+      "positives": 263,
+      "fp_false_alarms": 12,
+      "fn_missed": 2,
+      "precision": 0.956,
+      "recall": 0.992
+    },
+    "cooking_steam": {
+      "rows": 550,
+      "positives": 0,
+      "fp_false_alarms": 2,
+      "fn_missed": 0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "gradual_fire": {
+      "rows": 350,
+      "positives": 169,
+      "fp_false_alarms": 0,
+      "fn_missed": 29,
+      "precision": 1.0,
+      "recall": 0.828
+    },
+    "normal": {
+      "rows": 950,
+      "positives": 0,
+      "fp_false_alarms": 0,
+      "fn_missed": 0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "sensor_glitch": {
+      "rows": 300,
+      "positives": 0,
+      "fp_false_alarms": 0,
+      "fn_missed": 0,
+      "precision": 0.0,
+      "recall": 0.0
+    },
+    "sudden_fire": {
+      "rows": 350,
+      "positives": 221,
+      "fp_false_alarms": 0,
+      "fn_missed": 70,
+      "precision": 1.0,
+      "recall": 0.683
+    }
+  },
+  "feature_split_counts": {
+    "temperature": 43,
+    "smoke": 26,
+    "co": 41,
+    "flame": 0,
+    "fire_code": 13,
+    "occupants": 25,
+    "exit_blocked": 3,
+    "d_temp_3m": 28,
+    "d_smoke_3m": 31,
+    "d_co_3m": 23,
+    "rule_score": 18,
+    "d_rule_score_3m": 26
+  },
+  "comparison_logistic_regression_test": {
+    "auc": 0.925,
+    "brier": 0.0382,
+    "at_0.5": {
+      "tp": 518,
+      "fp_false_alarms": 4,
+      "fn_missed": 135,
+      "tn": 2493,
+      "precision": 0.992,
+      "recall": 0.793,
+      "f1": 0.882,
+      "false_alarm_rate": 0.002,
+      "miss_rate": 0.207
+    }
+  },
+  "caveat": "Synthetic data: results show the pipeline works on simulator dynamics; they are NOT field accuracy."
+}

@@ -1,0 +1,22 @@
+/* RESQ AI - readability pass. Import AFTER your existing index.css (see steps). */
+
+/* 1. Solid panels instead of see-through glass: text is easy to read on them */
+.glass-panel {
+  background: rgba(13, 21, 36, 0.97) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.16) !important;
+}
+
+/* 2. Brighter secondary text and slightly larger base size */
+:root { --text-muted: #b9c6da; }
+body { font-size: 15px; }
+
+/* 3. Alert banner */
+@keyframes resqPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.55); }
+  50%      { box-shadow: 0 0 0 10px rgba(255, 59, 48, 0); }
+}
+@keyframes resqBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+.resq-banner-fire { animation: resqPulse 1.4s infinite; }
+.resq-blink { animation: resqBlink 1s infinite; }

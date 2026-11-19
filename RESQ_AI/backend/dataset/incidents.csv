@@ -1,0 +1,6 @@
+incident_id,building_id,floor,room,incident_type,severity,temperature,smoke_level,fire_status,detected_at,occupants_count,risk_score
+INC-0001,BLD-01,1,1A-102,Gas Leak,Moderate,36.1,27.3,none,2026-09-26 10:40:45,4,27.2
+INC-0002,BLD-01,1,1B-204,Electrical Fault,Moderate,21.9,1.1,none,2026-09-26 10:37:45,1,5
+INC-0003,BLD-01,2,2B-203,Gas Leak,High,75.3,46.4,smoke,2026-09-26 12:17:45,10,68.3
+INC-0004,BLD-01,2,2B-204,Electrical Fault,High,50.7,45.7,smoke,2026-09-26 10:09:45,1,37.7
+INC-0005,BLD-01,4,4A-101,Fire,High,59.0,41.6,smoke,2026-09-26 12:18:45,4,45.8

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+database/*.db
+database/backups/
+backend/.env
+_backup_before_update/

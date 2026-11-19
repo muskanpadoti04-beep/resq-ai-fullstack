@@ -1,0 +1,6 @@
+team_id,team_name,status,current_location,assigned_room,eta_minutes
+TEAM-01,Rescue Team A,En Route,Lobby,2B-203,7.2
+TEAM-02,Rescue Team B,On Scene,Command Truck,2B-204,0
+TEAM-03,Rescue Team C,On Scene,Stair B,4A-101,0
+TEAM-04,Rescue Team D,Standby,Lobby,,0
+TEAM-05,Hazmat Unit,Standby,Stair B,,0

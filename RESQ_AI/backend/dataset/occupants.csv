@@ -1,0 +1,80 @@
+occupant_id,room_id,name,type,age_group,risk_status,is_trapped
+OCC-0001,1A-101,Karan Verma,Human,Senior,Safe,False
+OCC-0002,1A-102,Karan Reddy,Human,Child,Safe,False
+OCC-0003,1A-102,Anaya Nair,Human,Senior,Safe,False
+OCC-0004,1A-102,Nisha Rao,Human,Adult,Safe,False
+OCC-0005,1A-102,Rescue Dog,Dog,N/A,Safe,False
+OCC-0006,1B-201,Sara Gupta,Human,Child,Safe,False
+OCC-0007,1B-201,Yash Verma,Human,Child,Safe,False
+OCC-0008,1B-201,Isha Nair,Human,Child,Safe,False
+OCC-0009,1B-201,Meera Nair,Human,Child,Safe,False
+OCC-0010,1B-202,Nisha Kulkarni,Human,Child,Safe,False
+OCC-0011,1B-202,Reyansh Singh,Human,Adult,Safe,False
+OCC-0012,1B-202,Ira Mishra,Human,Senior,Safe,False
+OCC-0013,1B-203,Myra Gupta,Human,Child,Safe,False
+OCC-0014,1B-203,Yash Nair,Human,Child,Safe,False
+OCC-0015,1B-203,Aarav Verma,Human,Senior,Safe,False
+OCC-0016,1B-203,Myra Verma,Human,Child,Safe,False
+OCC-0017,1B-203,Isha Nair,Human,Child,Safe,False
+OCC-0018,1B-204,Meera Gupta,Human,Senior,Safe,False
+OCC-0019,2A-102,Yash Reddy,Human,Adult,Safe,False
+OCC-0020,2B-201,Meera Kulkarni,Human,Child,Safe,False
+OCC-0021,2B-201,Kiara Rao,Human,Adult,Safe,False
+OCC-0022,2B-201,Vivaan Verma,Human,Child,Safe,False
+OCC-0023,2B-202,Vihaan Verma,Human,Child,Safe,False
+OCC-0024,2B-203,Tara Mishra,Human,Child,High Risk,False
+OCC-0025,2B-203,Rohan Gupta,Human,Child,High Risk,False
+OCC-0026,2B-203,Tara Verma,Human,Child,Safe,False
+OCC-0027,2B-203,Aarav Verma,Human,Child,High Risk,False
+OCC-0028,2B-203,Meera Gupta,Human,Adult,High Risk,False
+OCC-0029,2B-203,Aarav Kulkarni,Human,Adult,High Risk,False
+OCC-0030,2B-203,Tara Mishra,Human,Child,High Risk,False
+OCC-0031,2B-203,Vivaan Reddy,Human,Senior,Safe,False
+OCC-0032,2B-203,Rescue Dog,Dog,N/A,High Risk,False
+OCC-0033,2B-203,Rescue Dog,Dog,N/A,Safe,False
+OCC-0034,2B-204,Karan Patel,Human,Child,Safe,False
+OCC-0035,3A-101,Anaya Verma,Human,Senior,Safe,False
+OCC-0036,3A-101,Rescue Dog,Dog,N/A,Safe,False
+OCC-0037,3A-101,Arjun Verma,Human,Senior,Safe,False
+OCC-0038,3A-102,Nisha Sharma,Human,Senior,Safe,False
+OCC-0039,3A-102,Yash Reddy,Human,Senior,Safe,False
+OCC-0040,3A-102,Aditya Gupta,Human,Senior,Safe,False
+OCC-0041,3A-102,Myra Singh,Human,Adult,Safe,False
+OCC-0042,3A-102,Sara Mishra,Human,Adult,Safe,False
+OCC-0043,3B-201,Isha Sharma,Human,Adult,Safe,False
+OCC-0044,3B-201,Yash Verma,Human,Child,Safe,False
+OCC-0045,3B-202,Karan Singh,Human,Child,Safe,False
+OCC-0046,3B-202,Isha Gupta,Human,Adult,Safe,False
+OCC-0047,3B-202,Rohan Nair,Human,Senior,Safe,False
+OCC-0048,3B-203,Karan Sharma,Human,Senior,Safe,False
+OCC-0049,3B-203,Sara Verma,Human,Child,Safe,False
+OCC-0050,3B-204,Diya Nair,Human,Child,Safe,False
+OCC-0051,3B-204,Nisha Gupta,Human,Senior,Safe,False
+OCC-0052,3B-204,Aditya Nair,Human,Adult,Safe,False
+OCC-0053,3B-204,Vivaan Verma,Human,Senior,Safe,False
+OCC-0054,3B-204,Aditya Sharma,Human,Child,Safe,False
+OCC-0055,3B-204,Kabir Singh,Human,Child,Safe,False
+OCC-0056,4A-101,Tara Kulkarni,Human,Senior,High Risk,False
+OCC-0057,4A-101,Kabir Nair,Human,Child,High Risk,False
+OCC-0058,4A-101,Kabir Kulkarni,Human,Child,High Risk,False
+OCC-0059,4A-101,Vivaan Rao,Human,Child,Safe,False
+OCC-0060,4A-102,Diya Rao,Human,Senior,Safe,False
+OCC-0061,4A-102,Kiara Reddy,Human,Senior,Safe,False
+OCC-0062,4A-102,Myra Patel,Human,Child,Safe,False
+OCC-0063,4A-102,Aarav Patel,Human,Senior,Safe,False
+OCC-0064,4A-102,Kiara Gupta,Human,Adult,Safe,False
+OCC-0065,4B-201,Diya Kulkarni,Human,Child,Safe,False
+OCC-0066,4B-201,Myra Gupta,Human,Adult,Safe,False
+OCC-0067,4B-201,Myra Gupta,Human,Child,Safe,False
+OCC-0068,4B-201,Arjun Rao,Human,Adult,Safe,False
+OCC-0069,4B-201,Aditya Rao,Human,Senior,Safe,False
+OCC-0070,4B-201,Tara Rao,Human,Child,Safe,False
+OCC-0071,4B-203,Aditya Patel,Human,Senior,Safe,False
+OCC-0072,4B-204,Aditya Sharma,Human,Child,Safe,False
+OCC-0073,4B-204,Ira Rao,Human,Adult,Safe,False
+OCC-0074,4B-204,Karan Verma,Human,Adult,Safe,False
+OCC-0075,4B-204,Reyansh Singh,Human,Child,Safe,False
+OCC-0076,4B-204,Aarav Nair,Human,Senior,Safe,False
+OCC-0077,4B-204,Reyansh Rao,Human,Adult,Safe,False
+OCC-0078,4B-204,Rescue Dog,Dog,N/A,Safe,False
+OCC-0079,4B-204,Vihaan Reddy,Human,Adult,Safe,False

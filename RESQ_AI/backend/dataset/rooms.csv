@@ -1,0 +1,25 @@
+room_id,floor,room_number,capacity,occupants,risk_level,temperature,smoke_level,fire_status
+1A-101,1,A-101,6,1,Moderate,28.3,11.9,none
+1A-102,1,A-102,4,4,Moderate,36.1,27.3,none
+1B-201,1,B-201,4,4,Safe,20.2,1.1,none
+1B-202,1,B-202,6,3,Safe,24.5,2.7,none
+1B-203,1,B-203,6,5,Moderate,37.7,5.2,none
+1B-204,1,B-204,8,1,Safe,21.9,1.1,none
+2A-101,2,A-101,8,0,Safe,20.7,4.2,none
+2A-102,2,A-102,10,1,Moderate,34.4,29.3,none
+2B-201,2,B-201,8,3,Moderate,38.0,20.5,none
+2B-202,2,B-202,8,1,Moderate,28.5,10.7,none
+2B-203,2,B-203,10,10,High Risk,75.3,46.4,smoke
+2B-204,2,B-204,8,1,High Risk,50.7,45.7,smoke
+3A-101,3,A-101,6,3,Moderate,30.1,23.2,none
+3A-102,3,A-102,6,5,Safe,26.9,3.2,none
+3B-201,3,B-201,4,2,Safe,25.4,0.3,none
+3B-202,3,B-202,8,3,Safe,20.5,4.6,none
+3B-203,3,B-203,10,2,Moderate,32.7,27.9,none
+3B-204,3,B-204,8,6,Safe,21.7,2.8,none
+4A-101,4,A-101,6,4,High Risk,59.0,41.6,smoke
+4A-102,4,A-102,6,5,Safe,25.3,4.3,none
+4B-201,4,B-201,10,6,Safe,24.8,3.0,none
+4B-202,4,B-202,4,0,Moderate,33.6,11.3,none
+4B-203,4,B-203,8,1,Moderate,34.4,11.7,none
+4B-204,4,B-204,8,8,Safe,21.1,0.0,none
